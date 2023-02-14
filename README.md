@@ -1,60 +1,80 @@
 <h1>Sacola API</h1>
-
 <p>Sacola API para Servir uma Aplicação com Domínio de Delivery</p>
+
 
 <h3>Features</h3>
 
 - [x] Incluir itens na sacola<br>
-16
 - [x] Visualizar sacola<br>
-17
 - [x] Fechar sacola<br>
-20
+
+
 <h3>Demostração da Aplicação</h3>
-21
 <p>Antes de começar, você precisará ter instalado em sua máquina as seguintes ferramentas:</p>
-22
 <table>
-23
 <tr>
-24
-        <th>Ferramenta</th>
-25
-        <th>Versão</th>
-26
+	<th>Ferramenta</th>
+	<th>Versão</th>
 </tr>
-27
 <tr>
-28
-        <td>Java JDK</td>
-29
-        <td>8+</td>
-30
+	<td>Java JDK</td>
+	<td>8+</td>
 </tr>
-31
 <tr>
-32
-        <td>Git</td>
-33
-        <td>2.**</td>
-34
+	<td>Git</td>
+	<td>2.**</td>
 </tr>
-35
 <tr>
-36
-        <td>Gradle</td>
-37
-        <td>7.**</td>
-38
+	<td>Gradle</td>
+	<td>7.**</td>
 </tr>
-39
 <tr>
-     <td>9.**</td>
-42
+	<td>Postman</td>
+	<td>9.**</td>
 </tr>
-43
 </table>
-44
 <h6>** Visando facilitar a demostração da aplicação, recomendo instalar apenas o IntelliJ IDEA e rodar o projeto através da IDE **</h6>
-45
-​
+
+No Terminal/Console:
+<ol>
+	<li>Faça um clone do projeto na sua máquina: <code>git clone https://github.com/cami-la/sacola-api.git</code></li>
+	<li>Entre na pasta raiz do projeto: <code>cd sacola-api</code></li> 
+	<li>Rode o comando: <code>./gradlew bootrun</code></li>
+	<li>Com a aplicação "de pé", clique aqui: <a href="http://localhost:8081/swagger-ui/">http://localhost:8081/swagger-ui/</a></li>
+</ol>
+
+<h3>Tecnologias Utilizadas</h3>
+
+<table>
+<tr>
+	<th>Dependência</th>
+	<th>Versão</th>
+</tr>
+<tr>
+	<td>spring initialzr</td>
+	<td><a href="https://start.spring.io/">https://start.spring.io/</a></td>
+</tr>
+<tr>
+	<td>spring-boot-starter-web</td>
+	<td>2.7.4</td>
+</tr>
+<tr>
+	<td>spring-boot-starter-data-jpa</td>
+	<td>2.7.4</td>
+</tr>
+<tr>
+	<td>lombok</td>
+	<td>1.18.24</td>
+</tr>
+<tr>
+	<td>springfox-boot-starter</td>
+	<td>3.0.0</td>
+</tr>
+<tr>
+	<td>h2</td>
+	<td>2.1.214</td>
+</tr>
+</table>
+
+
+
